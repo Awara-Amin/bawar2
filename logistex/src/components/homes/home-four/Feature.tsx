@@ -38,11 +38,18 @@ const Feature = () => {
               <div key={item.id} className="col-lg-4 col-md-6">
                 <div className="features__item">
                   <div className="features__icon">
-                    <Image
+                    {/* <Image
                       src={item.image}
                       alt={item.title}
                       width={80} // Adjust width
                       height={80} // Adjust height
+                      className="feature-img"
+                    /> */}
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      width={80}
+                      height={80}
                       className="feature-img"
                     />
                   </div>
