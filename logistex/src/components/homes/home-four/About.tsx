@@ -17,7 +17,7 @@ const About = () => {
         <div className="row align-items-center justify-content-center gutter-24">
           <div className="col-lg-6 col-md-9">
             <div className="about__img-five">
-              <Image
+              <img
                 src="/images/h4_about_img.jpg"
                 // src={about_img}
                 // src="@/assets/img/images/h4_about_img.jpg"
@@ -26,7 +26,7 @@ const About = () => {
                 data-aos="fade-left"
                 data-aos-delay="200"
               />
-              <Image
+              <img
                 // src={about_shape}
                 // src="@/assets/img/images/test-1.png"
                 src="/images/test-1.png"
