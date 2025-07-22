@@ -18,12 +18,18 @@ const About = () => {
           <div className="col-lg-6 col-md-9">
             <div className="about__img-five">
               <Image
-                src={about_img}
+                // src={about_img}
+                src={`url(${about_img})`}
                 alt="img"
                 data-aos="fade-left"
                 data-aos-delay="200"
               />
-              <Image src={about_shape} alt="shape" className="shape" />
+              <Image
+                // src={about_shape}
+                src={`url(${about_shape})`}
+                alt="shape"
+                className="shape"
+              />
               <div
                 className="about__clients-box about__clients-box-two"
                 data-aos="fade-right"
@@ -208,7 +214,8 @@ const About = () => {
       </div>
       <div className="about__shape-two">
         <Image
-          src={shape}
+          // src={shape}
+          src={`url(${shape})`}
           alt="shape"
           data-aos="fade-left"
           data-aos-delay="400"
