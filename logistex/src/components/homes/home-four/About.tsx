@@ -22,7 +22,7 @@ const About = () => {
                 // src={about_img}
                 // src="@/assets/img/images/h4_about_img.jpg"
                 // src={`url(${about_img})`}
-                alt="img"
+                alt="img1"
                 data-aos="fade-left"
                 data-aos-delay="200"
               />
