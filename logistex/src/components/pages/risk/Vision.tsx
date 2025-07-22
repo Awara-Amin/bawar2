@@ -1,7 +1,7 @@
 "use client"
 // import { useInView } from "react-intersection-observer"
-import Image from "next/image"
-import vission_thumb from "@/assets/img/images/vision_img.jpg"
+// import Image from "next/image"
+// import vission_thumb from "@/assets/img/images/vision_img.jpg"
 
 const Vision = () => {
   //   const [ref, inView] = useInView({
@@ -21,7 +21,8 @@ const Vision = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.1s"
               >
-                <Image src={vission_thumb} alt="img" />
+                {/* <Image src={vission_thumb} alt="img" /> */}
+                <img src="/images/vision_img.jpg" alt="img" />
               </div>
               <div className="vision__content">
                 <div className="section__title section__title-two mb-25">

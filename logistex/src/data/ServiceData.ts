@@ -1,7 +1,7 @@
 // import { StaticImageData } from "next/image"
 
-// import service_1 from "@/assets/img/services/services_img01.jpg"
-// import service_2 from "@/assets/img/services/services_img02.jpg"
+// import service_1 from "@/assets/img/services/services_img08.jpg"
+// import service_2 from "@/assets/img/services/services_img04.jpg"
 // import service_3 from "@/assets/img/services/services_img03.jpg"
 // import service_4 from "@/assets/img/services/services_img04.jpg"
 // import service_5 from "@/assets/img/services/services_img07.jpg"
@@ -176,6 +176,7 @@ const service_data: DataType[] = [
     id: 1,
     page: "inner_page",
     // img: service_1,
+    img: "/images/services_img08.jpg",
     icon: "flaticon-ship",
     title: "Quality Management System (QMS)",
     desc: "Road transpo arer tation criucial follw roley Logistins coordinated trans portatn the countries destination.",
@@ -184,6 +185,7 @@ const service_data: DataType[] = [
     id: 2,
     page: "inner_page",
     // img: service_2,
+    img: "/images/services_img04",
     icon: "flaticon-truck",
     title: "Environmental Management System (EMS)",
     desc: "Road transpo arer tation criucial follw roley Logistins coordinated trans portatn the countries destination.",
@@ -192,6 +194,7 @@ const service_data: DataType[] = [
     id: 3,
     page: "inner_page",
     // img: service_3,
+    img: "/images/services_img13.jpg",
     icon: "flaticon-air-freight",
     title: "Food Safety Management System (FSMS)",
     desc: "Road transpo arer tation criucial follw roley Logistins coordinated trans portatn the countries destination.",

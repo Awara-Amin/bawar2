@@ -1,7 +1,7 @@
 import InjectableSvg from "@/components/common/InjectableSvg"
 import service_data from "@/data/ServiceData"
 // import work_data from "@/data/WorkData"
-import Image from "next/image"
+// import Image from "next/image"
 import Link from "next/link"
 
 const HowItWorkArea = () => {
@@ -26,7 +26,8 @@ const HowItWorkArea = () => {
                 <div className="services__item-three">
                   <div className="services__thumb-three">
                     <Link href="/services-details">
-                      <Image src={item.img ? item.img : ""} alt="img" />
+                      {/* <Image src={item.img ? item.img : ""} alt="img" /> */}
+                      <img src={item.img ? item.img : ""} alt="img" />
                     </Link>
                     <Link href="/services-details" className="btn border-btn">
                       Read More{" "}

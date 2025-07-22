@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import mission_thumb from "@/assets/img/images/mission_img.jpg"
+// import mission_thumb from "@/assets/img/images/mission_img.jpg"
 import shape from "@/assets/img/images/mission_shape.svg"
 
 const Mission = () => {
@@ -15,7 +15,8 @@ const Mission = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.1s"
               >
-                <Image src={mission_thumb} alt="img" />
+                {/* <Image src={mission_thumb} alt="img" /> */}
+                <img src="/images/mission_img.jpg" alt="img" />
               </div>
               <div className="mission__content">
                 <div className="section__title section__title-two mb-20">
