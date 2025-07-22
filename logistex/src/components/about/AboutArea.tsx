@@ -1,8 +1,8 @@
-import Image from "next/image"
+// import Image from "next/image"
 // import about_1 from "@/assets/img/images/inner_about_img01.jpg"
 // import about_2 from "@/assets/img/images/inner_about_img02.jpg"
-import about_1 from "@/assets/img/images/inner_about_img0111.jpg"
-import about_2 from "@/assets/img/images/inner_about_img011.jpg"
+// import about_1 from "@/assets/img/images/inner_about_img0111.jpg"
+// import about_2 from "@/assets/img/images/inner_about_img011.jpg"
 
 const AboutArea = () => {
   return (
@@ -11,14 +11,26 @@ const AboutArea = () => {
         <div className="row align-items-center justify-content-center gutter-24">
           <div className="col-lg-6 col-md-9">
             <div className="about__img-two">
-              <Image
+              {/* <Image
                 src={about_1}
                 alt="img"
                 data-aos="fade-right"
                 data-aos-delay="400"
+              /> */}
+              <img
+                src="/images/inner_about_img0111.jpg"
+                alt="img"
+                data-aos="fade-right"
+                data-aos-delay="400"
               />
-              <Image
+              {/* <Image
                 src={about_2}
+                alt="img"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              /> */}
+              <img
+                src="/images/inner_about_img011.jpg"
                 alt="img"
                 data-aos="fade-up"
                 data-aos-delay="600"
