@@ -1,9 +1,9 @@
 import Image from "next/image"
 // import Count from "@/components/common/Count"
 
-import about_img from "@/assets/img/images/h4_about_img.jpg"
+// import about_img from "@/assets/img/images/h4_about_img.jpg"
 // import about_shape from "@/assets/img/images/choose_logo.svg"
-import about_shape from "@/assets/img/images/test-1.png"
+// import about_shape from "@/assets/img/images/test-1.png"
 
 // import author from "@/assets/img/images/about_author.png"
 // import signature from "@/assets/img/images/signature02.png"
@@ -19,14 +19,16 @@ const About = () => {
             <div className="about__img-five">
               <Image
                 // src={about_img}
-                src={`url(${about_img})`}
+                src="@/assets/img/images/h4_about_img.jpg"
+                // src={`url(${about_img})`}
                 alt="img"
                 data-aos="fade-left"
                 data-aos-delay="200"
               />
               <Image
                 // src={about_shape}
-                src={`url(${about_shape})`}
+                src="@/assets/img/images/test-1.png"
+                // src={`url(${about_shape})`}
                 alt="shape"
                 className="shape"
               />
@@ -214,8 +216,8 @@ const About = () => {
       </div>
       <div className="about__shape-two">
         <Image
-          // src={shape}
-          src={`url(${shape})`}
+          src={shape}
+          // src={`url(${shape})`}
           alt="shape"
           data-aos="fade-left"
           data-aos-delay="400"
