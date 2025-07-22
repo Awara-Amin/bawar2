@@ -185,7 +185,7 @@ const service_data: DataType[] = [
     id: 2,
     page: "inner_page",
     // img: service_2,
-    img: "/images/services_img18",
+    img: "/images/services_img18.jpg",
     icon: "flaticon-truck",
     title: "Environmental Management System (EMS)",
     desc: "Road transpo arer tation criucial follw roley Logistins coordinated trans portatn the countries destination.",

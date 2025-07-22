@@ -29,7 +29,7 @@ const ServiceDetailsArea = () => {
                 <div className="services__details-content">
                   <h2 className="title">Modern Business Investment Planning</h2>
                   <p style={{ textAlign: "justify" }}>
-                    Shipping freight refers to the transportation of large
+                    {/* Shipping freight refers to the transportation of large
                     quantities of goods or cargo by sea, air, or land. Freight
                     can be shipped in various types of containers such as boxes,
                     crates, barrels, or pallets. The transportation of goods by
@@ -44,7 +44,22 @@ const ServiceDetailsArea = () => {
                     is typically arranged through a shipping company or freight
                     forwarder, which handles the logistics of the shipment,
                     including the booking of cargo space, transportation,
-                    customs clearance, and delivery
+                    customs clearance, and delivery */}
+                    ISO/IEC 27001 certification helps businesses establish a
+                    structured and effective Information Security Management
+                    System (ISMS) by providing a globally recognized framework
+                    for managing and protecting sensitive information. It
+                    enables organizations to identify and mitigate security
+                    risks, comply with legal and regulatory requirements such as
+                    GDPR or HIPAA, and implement consistent security policies
+                    and controls. Achieving ISO 27001 not only strengthens
+                    internal processes and raises employee awareness of security
+                    responsibilities but also enhances customer trust and brand
+                    reputation by demonstrating a commitment to safeguarding
+                    data. This certification is especially valuable in
+                    competitive markets, where it can serve as a differentiator
+                    and support business growth by meeting the security
+                    expectations of clients and partners.
                   </p>
                   <div className="services__details-content-inner">
                     <div className="row align-items-end">
@@ -53,9 +68,9 @@ const ServiceDetailsArea = () => {
                           Our Next Level Logistics Around the World
                         </h2>
                         <p>
-                          With over four decades experience providing solutions
-                          largee enterprises throughout the globe we offer
-                          endend istics tailored for specific markets.
+                          With over nearly fifteen years experience providing
+                          solutions largee enterprises throughout the Iraq and
+                          Kurdistan.
                         </p>
                       </div>
                       <div className="col-md-6">
