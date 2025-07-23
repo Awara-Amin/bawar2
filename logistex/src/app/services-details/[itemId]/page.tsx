@@ -21,14 +21,22 @@ export const metadata = {
 // export default page
 
 type PageProps = {
-  params: { itemId: string }
+  params: {
+    itemId: string
+  }
 }
 
-const Page = ({ params }: PageProps) => {
-  const item = service_data.find((item) => item.id.toString() === params.itemId)
+export async function generateStaticParams() {
+  return service_data.map((item) => ({
+    itemId: item.id.toString(),
+  }))
+}
+
+export default function Page({ params }: PageProps) {
+  const item = service_data.find((el) => el.id.toString() === params.itemId)
 
   if (!item) {
-    return notFound()
+    notFound()
   }
 
   return (
@@ -36,12 +44,4 @@ const Page = ({ params }: PageProps) => {
       <ServiceDetails item={item} />
     </Wrapper>
   )
-}
-
-export default Page
-
-export function generateStaticParams() {
-  return service_data.map((item) => ({
-    itemId: item.id.toString(),
-  }))
 }
