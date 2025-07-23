@@ -4,18 +4,22 @@ import HeaderFour from "@/layouts/headers/HeaderFour"
 import ServiceDetailsArea from "./ServiceDetailsArea"
 // import CTA from "../../who-we-are/CTA"
 import FooterTwo from "@/layouts/footers/FooterTwo"
-import service_data from "@/data/ServiceData"
 
-type Props = {
-  itemId: string
+export type ServiceItem = {
+  id: number
+  page: string
+  img?: string
+  icon: string
+  title: string
+  desc: string
 }
 
-const ServiceDetails = ({ itemId }: Props) => {
-  console.log("inside ServiceDetails, itemId:", itemId)
+type Props = {
+  item: ServiceItem
+}
 
-  const item = service_data.find((data) => data.id === Number(itemId))
-
-  if (!item) return <p>Service not found.</p>
+const ServiceDetails = ({ item }: Props) => {
+  console.log("inside ServiceDetails, itemId:", item)
 
   return (
     <div className="theme-red">
