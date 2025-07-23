@@ -6,7 +6,7 @@ import ServiceDetailsArea from "./ServiceDetailsArea"
 import FooterTwo from "@/layouts/footers/FooterTwo"
 
 const ServiceDetails = () => {
-  alert("hi inside folder of service-details, then index")
+  console.log("hi inside folder of service-details, then index")
   return (
     <div className="theme-red">
       <ScrollToTop />
