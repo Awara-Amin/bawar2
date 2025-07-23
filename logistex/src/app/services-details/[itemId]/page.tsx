@@ -21,15 +21,17 @@ export const metadata = {
 // export default page
 
 // ✅ Generates static paths for each item
+
 export function generateStaticParams() {
   return service_data.map((item) => ({
-    itemId: item.id,
+    itemId: item.id.toString(),
   }))
 }
 
-// ✅ Correct typing of props here (no async type confusion)
-export default function Page({ params }: { params: { itemId: number } }) {
-  const item = service_data.find((service) => service.id === params.itemId)
+export default function Page({ params }: { params: { itemId: string } }) {
+  const item = service_data.find(
+    (service) => service.id.toString() === params.itemId
+  )
 
   if (!item) return notFound()
 

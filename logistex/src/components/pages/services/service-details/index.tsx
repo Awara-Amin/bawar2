@@ -5,17 +5,16 @@ import ServiceDetailsArea from "./ServiceDetailsArea"
 // import CTA from "../../who-we-are/CTA"
 import FooterTwo from "@/layouts/footers/FooterTwo"
 
-export type ServiceItem = {
-  id: number
-  page: string
-  img?: string
-  icon: string
-  title: string
-  desc: string
-}
-
 type Props = {
-  item: ServiceItem
+  item: {
+    id: number
+    page: string
+    img?: string
+    icon: string
+    title: string
+    desc: string
+    list?: string[]
+  }
 }
 
 const ServiceDetails = ({ item }: Props) => {
