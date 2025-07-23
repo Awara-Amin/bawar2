@@ -28,8 +28,17 @@ export function generateStaticParams() {
   }))
 }
 
+export type DataType = {
+  id: number
+  page: string
+  img?: string
+  icon: string
+  title: string
+  desc: string
+  list?: string[]
+}
 export default function Page({ params }: { params: { itemId: string } }) {
-  const item = service_data.find(
+  const item: DataType | undefined = service_data.find(
     (service) => service.id.toString() === params.itemId
   )
 
