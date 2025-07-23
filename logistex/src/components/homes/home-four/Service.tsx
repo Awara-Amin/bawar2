@@ -47,7 +47,11 @@ const Service = () => {
                       {/* <Image src={item.img ? item.img : ""} alt="img" /> */}
                       <img src={item.img ? item.img : ""} alt="img" />
                     </Link>
-                    <Link href="/services-details" className="btn border-btn">
+                    {/* <Link href="/services-details" className="btn border-btn"> */}
+                    <Link
+                      href={`/services-details/${item.id}`}
+                      className="btn border-btn"
+                    >
                       Read More{" "}
                       <InjectableSvg
                         src="/assets/img/icon/right_arrow.svg"
