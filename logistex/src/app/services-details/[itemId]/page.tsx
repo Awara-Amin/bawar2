@@ -2,6 +2,12 @@ import ServiceDetails from "@/components/pages/services/service-details"
 import service_data from "@/data/ServiceData"
 import Wrapper from "@/layouts/Wrapper"
 
+type Props = {
+  params: {
+    itemId: string
+  }
+}
+
 export const metadata = {
   title:
     "Service Details Logistex - Transport & Logistics React Next js Template",
@@ -24,9 +30,8 @@ export async function generateStaticParams() {
 // }
 
 // export default page
-const page = ({ params }: { params: { itemId: string } }) => {
-  console.log("hi-1 inside folder of service-details", params.itemId)
 
+const Page = ({ params }: Props) => {
   return (
     <Wrapper>
       <ServiceDetails itemId={params.itemId} />
@@ -34,4 +39,4 @@ const page = ({ params }: { params: { itemId: string } }) => {
   )
 }
 
-export default page
+export default Page

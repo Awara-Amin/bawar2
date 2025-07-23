@@ -6,11 +6,11 @@ import ServiceDetailsArea from "./ServiceDetailsArea"
 import FooterTwo from "@/layouts/footers/FooterTwo"
 import service_data from "@/data/ServiceData"
 
-interface ServiceDetailsProps {
+type Props = {
   itemId: string
 }
 
-const ServiceDetails = ({ itemId }: ServiceDetailsProps) => {
+const ServiceDetails = ({ itemId }: Props) => {
   console.log("inside ServiceDetails, itemId:", itemId)
 
   const item = service_data.find((data) => data.id === Number(itemId))
