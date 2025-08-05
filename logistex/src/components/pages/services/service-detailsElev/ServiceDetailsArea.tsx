@@ -1,14 +1,33 @@
 // "use client"
 // import VideoPopup from "@/modals/VideoPopup"
 // import { useState } from "react"
-// import Image from "next/image"
+// // import Image from "next/image"
 // import ServiceSidebar from "./ServiceSidebar"
 // import { useInView } from "react-intersection-observer"
 
 // import service_details1 from "@/assets/img/services/services_img01.jpg"
-// // import service_details2 from "@/assets/img/services/services_details_inner_img.jpg"
+// import service_details2 from "@/assets/img/services/services_details_inner_img.jpg"
+// import { StaticImageData } from "next/image"
 
-// const ServiceDetailsArea = () => {
+// 👇 Define the type above the component
+// export type ServiceItem = {
+//   id: number
+//   page: string
+//   img?: string
+//   // img?: StaticImageData
+//   icon: string
+//   title: string
+//   desc: string
+//   list?: string[]
+// }
+
+// type Props = {
+//   item: ServiceItem
+// }
+
+// // const ServiceDetailsArea = () => {
+// const ServiceDetailsArea = ({ item }: Props) => {
+//   console.log(" ServiceDetailsArea ,item kaka 3", item)
 //   const [ref, inView] = useInView({
 //     triggerOnce: true,
 //     threshold: 0.75,
@@ -24,12 +43,18 @@
 //             <div className="row">
 //               <div className="col-70 order-0 order-lg-2">
 //                 <div className="services__details-thumb">
-//                   <Image src={service_details1} alt="img" />
+//                   {/* <Image src={service_details1} alt="img" /> */}
+//                   {/* <Image src={item.img ? item.img : ""} alt="img" /> */}
+//                   <img src={item.img ? item.img : ""} alt="img" />
 //                 </div>
 //                 <div className="services__details-content">
-//                   <h2 className="title">Modern Business Investment Planning</h2>
+//                   <h2 className="title">
+//                     {/* Modern Business Investment Planning 222 */}
+//                     {item.title}
+//                   </h2>
 //                   <p style={{ textAlign: "justify" }}>
-//                     ISO/IEC 27001 certification helps businesses establish a
+//                     {item.desc}
+//                     {/* ISO/IEC 27001 certification helps businesses establish a
 //                     structured and effective Information Security Management
 //                     System (ISMS) by providing a globally recognized framework
 //                     for managing and protecting sensitive information. It
@@ -43,18 +68,18 @@
 //                     data. This certification is especially valuable in
 //                     competitive markets, where it can serve as a differentiator
 //                     and support business growth by meeting the security
-//                     expectations of clients and partners.
+//                     expectations of clients and partners. */}
 //                   </p>
 //                   <div className="services__details-content-inner">
 //                     <div className="row align-items-end">
 //                       <div className="col-md-6">
 //                         <h2 className="title-two">
-//                           Our Next Level Logistics Around the World
+//                           We provide power and confidence to your business
 //                         </h2>
 //                         <p>
 //                           With over nearly fifteen years experience providing
-//                           solutions largee enterprises throughout the Iraq and
-//                           Kurdistan.
+//                           certification to largee companies throughout Kurdistan
+//                           and Iraq.
 //                         </p>
 //                       </div>
 //                       <div className="col-md-6">
@@ -287,27 +312,39 @@ import VideoPopup from "@/modals/VideoPopup"
 import { useState } from "react"
 // import Image from "next/image"
 import ServiceSidebar from "./ServiceSidebar"
-// import { useInView } from "react-intersection-observer"
 
-// 👇 Define the type above the component
-export type ServiceItem = {
+interface DataType {
   id: number
   page: string
+  // img?: StaticImageData
   img?: string
   icon: string
   title: string
   desc: string
+  list?: string[]
 }
+import { useInView } from "react-intersection-observer"
 
-type Props = {
-  item: ServiceItem
-}
+// type Props = {
+//   item: ServiceItem
+// }
 
-const ServiceDetailsArea = ({ item }: Props) => {
-  // const [ref, inView] = useInView({
-  //   triggerOnce: true,
-  //   threshold: 0.75,
-  // })
+const ServiceDetailsArea = () => {
+  const service_data: DataType[] = [
+    {
+      id: 21,
+      page: "inner_page",
+      // img: service_22,
+      img: "/images/services_img22.jpg",
+      icon: "flaticon-delivery-man",
+      title: "HACCP Certification – Ensure Food Safety & Build Trust",
+      desc: "Road transpo arer tation criucial follw roley Logistins coordinated trans portatn the countries destination.",
+    },
+  ]
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.75,
+  })
 
   const [isVideoOpen, setIsVideoOpen] = useState(false)
 
@@ -319,10 +356,10 @@ const ServiceDetailsArea = ({ item }: Props) => {
             <div className="row">
               <div className="col-70 order-0 order-lg-2">
                 <div className="services__details-thumb">
-                  {item.img && (
+                  {service_data[0]?.img && (
                     <img
-                      src={item.img}
-                      alt={item.title}
+                      src={service_data[0].img}
+                      alt={service_data[0].title}
                       width={500}
                       height={300}
                     />
@@ -336,10 +373,76 @@ const ServiceDetailsArea = ({ item }: Props) => {
                   /> */}
                 </div>
                 <div className="services__details-content">
-                  <h2 className="title">{item.title}</h2>
-                  <p style={{ textAlign: "justify" }}>{item.desc}</p>
+                  <h2 className="title">{service_data[0].title}</h2>
+                  <p style={{ textAlign: "justify" }}>{service_data[0].desc}</p>
+                  <div className="services__details-content-inner">
+                    <div className="row align-items-end">
+                      <div className="col-md-6">
+                        <h2 className="title-two">
+                          We provide power and confidence to your business
+                        </h2>
+                        <p>
+                          With over nearly fifteen years experience providing
+                          certification to largee companies throughout Kurdistan
+                          and Iraq.
+                        </p>
+                      </div>
+                      <div className="col-md-6">
+                        <div
+                          className="progress__wrap progress__wrap-three"
+                          ref={ref}
+                        >
+                          <div className="progress__item progress__item-three">
+                            <div className="progress__item-top">
+                              <h3 className="progress__title">
+                                Successful Delivery
+                              </h3>
+                              <div className="progress-value">
+                                <span className="counter-number">82</span>%
+                              </div>
+                            </div>
+                            <div className="progress">
+                              <div
+                                className="progress-bar"
+                                style={{
+                                  width: "82%",
+                                  animation: inView
+                                    ? "animate-positive 1.8s"
+                                    : "none",
+                                  opacity: inView ? "1" : "0",
+                                }}
+                              ></div>
+                            </div>
+                          </div>
+                          <div className="progress__item progress__item-three">
+                            <div className="progress__item-top">
+                              <h3 className="progress__title">
+                                Happy Customers
+                              </h3>
+                              <div className="progress-value">
+                                <span className="counter-number">90</span>%
+                              </div>
+                            </div>
+                            <div className="progress">
+                              <div
+                                className="progress-bar"
+                                style={{
+                                  width: "90%",
+                                  animation: inView
+                                    ? "animate-positive 1.8s"
+                                    : "none",
+                                  opacity: inView ? "1" : "0",
+                                }}
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
               <ServiceSidebar />
             </div>
           </div>

@@ -1234,6 +1234,7 @@ textarea {
   color: var(--tg-color-black-2);
 }
 .offCanvas__logo img {
+  /* max-height: 45px; */
   max-height: 45px;
 }
 .offCanvas__side-info {

@@ -2,7 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 
 // import logo from "@/assets/img/logo/logo.svg"
-import logo from "@/assets/img/logo/isoCert2.svg"
+// import logo from "@/assets/img/logo/isoCert2.svg"
+import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
 import NavMenu from "./NavMenu"
 
 interface MobileSidebarProps {
@@ -23,12 +24,12 @@ const MobileSidebar = ({ isActive, setIsActive }: MobileSidebarProps) => {
             </Link>
           </div>
           <div className="tgmobile__search">
-            <form onSubmit={(e) => e.preventDefault()}>
+            {/* <form onSubmit={(e) => e.preventDefault()}>
               <input type="text" placeholder="Search here..." />
               <button>
                 <i className="fas fa-search"></i>
               </button>
-            </form>
+            </form> */}
           </div>
           <div className="tgmobile__menu-outer">
             <NavMenu />

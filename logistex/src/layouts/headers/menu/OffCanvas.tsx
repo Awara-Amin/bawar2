@@ -2,7 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 
 // import logo from "@/assets/img/logo/logo.svg"
-import logo from "@/assets/img/logo/isoCert2.svg"
+// import logo from "@/assets/img/logo/isoCert2.svg"
+import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
 
 interface MobileSidebarProps {
   offCanvas: boolean
@@ -18,9 +19,10 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
             <i className="far fa-window-close"></i>
           </button>
         </div>
-        <div className="offCanvas__logo mb-30">
+        {/* <div className="offCanvas__logo mb-30"> */}
+        <div className="mb-30">
           <Link href="/">
-            <Image src={logo} alt="Logo" />
+            <Image src={logo} alt="Logo" width={120} height={40} />
           </Link>
         </div>
         <div className="offCanvas__side-info mb-30">

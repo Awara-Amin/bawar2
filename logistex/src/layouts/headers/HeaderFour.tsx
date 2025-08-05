@@ -9,7 +9,8 @@ import HeaderSearch from "./menu/HeaderSearch"
 import MobileSidebar from "./menu/MobileSidebar"
 
 // import logo from "@/assets/img/logo/logo02.svg"
-import logo from "@/assets/img/logo/isoCert2.svg"
+// import logo from "@/assets/img/logo/isoCert2.svg"
+import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
 import HeaderTopFour from "./HeaderTopFour"
 
 const HeaderFour = () => {
@@ -30,10 +31,20 @@ const HeaderFour = () => {
           <div className="row gx-0">
             <div className="col-12">
               <div className="tgmenu__wrap">
-                <div className="logo">
+                {/* <div className="logo">
                   <Link href="/">
                     <Image src={logo} alt="Logo" />
-                    {/* <Image src={logoA} alt="Logo" /> */}
+                  </Link>
+                </div> */}
+                <div>
+                  <Link href="/">
+                    <Image
+                      src={logo}
+                      alt="Logo"
+                      width={120}
+                      height={20}
+                      className="pt-10"
+                    />
                   </Link>
                 </div>
                 <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">

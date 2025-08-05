@@ -52,7 +52,7 @@ const NavMenu = () => {
                                 href={mega_m.link}
                                 className={`${mega_m.link && isSubMenuItemActive(mega_m.link) ? "active" : ""}`}
                               >
-                                {/* {mega_m.title} */}kkkkk
+                                {/* {mega_m.title} */}
                               </Link>
                             </li>
                           ))}

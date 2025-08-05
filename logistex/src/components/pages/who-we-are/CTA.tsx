@@ -1,9 +1,9 @@
 import InjectableSvg from "@/components/common/InjectableSvg"
-import Image from "next/image"
+// import Image from "next/image"
 import Link from "next/link"
 
 // import cta from "@/assets/img/images/cta_img.jpg"
-import cta from "@/assets/img/images/cta_audit.jpg"
+// import cta from "@/assets/img/images/cta_audit.jpg"
 
 const CTA = () => {
   return (
@@ -11,7 +11,8 @@ const CTA = () => {
       <div className="container">
         <div className="cta__wrap-two">
           <div className="cta__img">
-            <Image src={cta} alt="img" />
+            {/* <Image src={cta} alt="img" /> */}
+            <img src="/images/cta_audit.jpg" alt="img1" />
           </div>
           <div className="cta__content-two">
             <div className="content__left">

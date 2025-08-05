@@ -8,6 +8,8 @@ import shape_1 from "@/assets/img/services/h4_services_shape02.svg"
 import shape_2 from "@/assets/img/services/h4_services_shape02.svg"
 import shape_3 from "@/assets/img/services/h4_services_shape03.svg"
 
+const home4Services = service_data.filter((item) => item.page === "home_4")
+
 const Service = () => {
   return (
     // <section className="services__area-four grey-bg section-pt-140 section-pb-130">
@@ -36,7 +38,7 @@ const Service = () => {
             </div>
           </div> */}
         </div>
-        <div className="row gutter-24 justify-content-center">
+        {/* <div className="row gutter-24 justify-content-center">
           {service_data
             .filter((items) => items.page === "home_4")
             .map((item) => (
@@ -44,10 +46,10 @@ const Service = () => {
                 <div className="services__item-three">
                   <div className="services__thumb-three">
                     <Link href="/services-details">
-                      {/* <Image src={item.img ? item.img : ""} alt="img" /> */}
+                    
                       <img src={item.img ? item.img : ""} alt="img" />
                     </Link>
-                    {/* <Link href="/services-details" className="btn border-btn"> */}
+                  
                     <Link
                       href={`/services-details/${item.id}`}
                       className="btn border-btn"
@@ -64,14 +66,170 @@ const Service = () => {
                     <div className="services__icon-three">
                       <i className={item.icon}></i>
                     </div>
-                    <h4 className="title">
-                      <Link href="/services-details">{item.title}</Link>
-                    </h4>
-                    <p>{item.desc}</p>
+                  
+                   
+                    <p>{item.title}</p>
+                  
                   </div>
                 </div>
               </div>
             ))}
+        </div> */}
+
+        <div className="row gutter-24 justify-content-center">
+          {/* Service 1 */}
+          <div className="col-lg-4 col-md-6">
+            <div className="services__item-three">
+              <div className="services__thumb-three">
+                <Link href="/services-detailsOne">
+                  <img src={home4Services[0].img} alt="img" />
+                </Link>
+                <Link
+                  // href={`/services-details/${home4Services[0].id}`}
+                  href="/services-detailsOne"
+                  className="btn border-btn"
+                >
+                  Read More{" "}
+                  <InjectableSvg
+                    src="/assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  />
+                </Link>
+              </div>
+              <div className="services__content-three">
+                <div className="services__icon-three">
+                  <i className={home4Services[0].icon}></i>
+                </div>
+                <p>{home4Services[0].title}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 2 */}
+          <div className="col-lg-4 col-md-6">
+            <div className="services__item-three">
+              <div className="services__thumb-three">
+                <Link href="services-detailsTwo">
+                  <img src={home4Services[1].img} alt="img" />
+                </Link>
+                <Link href="services-detailsTwo" className="btn border-btn">
+                  Read More{" "}
+                  <InjectableSvg
+                    src="/assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  />
+                </Link>
+              </div>
+              <div className="services__content-three">
+                <div className="services__icon-three">
+                  <i className={home4Services[1].icon}></i>
+                </div>
+                <p>{home4Services[1].title}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 3 */}
+          <div className="col-lg-4 col-md-6">
+            <div className="services__item-three">
+              <div className="services__thumb-three">
+                <Link href="services-detailsThree">
+                  <img src={home4Services[2].img} alt="img" />
+                </Link>
+                <Link href="services-detailsThree" className="btn border-btn">
+                  Read More{" "}
+                  <InjectableSvg
+                    src="/assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  />
+                </Link>
+              </div>
+              <div className="services__content-three">
+                <div className="services__icon-three">
+                  <i className={home4Services[2].icon}></i>
+                </div>
+                <p>{home4Services[2].title}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 4 */}
+          <div className="col-lg-4 col-md-6">
+            <div className="services__item-three">
+              <div className="services__thumb-three">
+                <Link href="services-detailsFour">
+                  <img src={home4Services[3].img} alt="img" />
+                </Link>
+                <Link href="services-detailsFour" className="btn border-btn">
+                  Read More{" "}
+                  <InjectableSvg
+                    src="/assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  />
+                </Link>
+              </div>
+              <div className="services__content-three">
+                <div className="services__icon-three">
+                  <i className={home4Services[3].icon}></i>
+                </div>
+                <p>{home4Services[3].title}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 5 */}
+          <div className="col-lg-4 col-md-6">
+            <div className="services__item-three">
+              <div className="services__thumb-three">
+                <Link href="services-detailsFive">
+                  <img src={home4Services[4].img} alt="img" />
+                </Link>
+                <Link href="services-detailsFive" className="btn border-btn">
+                  Read More{" "}
+                  <InjectableSvg
+                    src="/assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  />
+                </Link>
+              </div>
+              <div className="services__content-three">
+                <div className="services__icon-three">
+                  <i className={home4Services[4].icon}></i>
+                </div>
+                <p>{home4Services[4].title}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 6 */}
+          <div className="col-lg-4 col-md-6">
+            <div className="services__item-three">
+              <div className="services__thumb-three">
+                <Link href="services-detailsSix">
+                  <img src={home4Services[5].img} alt="img" />
+                </Link>
+                <Link href="services-detailsSix" className="btn border-btn">
+                  Read More{" "}
+                  <InjectableSvg
+                    src="/assets/img/icon/right_arrow.svg"
+                    alt=""
+                    className="injectable"
+                  />
+                </Link>
+              </div>
+              <div className="services__content-three">
+                <div className="services__icon-three">
+                  <i className={home4Services[5].icon}></i>
+                </div>
+                <p>{home4Services[5].title}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="services__shape-wrap-two">
