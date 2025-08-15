@@ -18,7 +18,7 @@ const AboutArea = () => {
                 data-aos-delay="400"
               /> */}
               <img
-                src="/images/inner_about_img0111.jpg"
+                src="/images/aboutUs.jpg"
                 alt="img"
                 data-aos="fade-right"
                 data-aos-delay="400"
@@ -30,7 +30,7 @@ const AboutArea = () => {
                 data-aos-delay="600"
               /> */}
               <img
-                src="/images/inner_about_img011.jpg"
+                src="/images/certi.jpg"
                 alt="img"
                 data-aos="fade-up"
                 data-aos-delay="600"
@@ -40,7 +40,7 @@ const AboutArea = () => {
           <div className="col-lg-6">
             <div className="about__content-two">
               <div className="section__title section__title-two mb-20">
-                <span className="sub-title">About ISO Company</span>
+                <span className="sub-title">About ISOCERT Company</span>
                 <h2 className="title">We Are</h2>
               </div>
               {/* <p className="info-one">
@@ -85,14 +85,14 @@ const AboutArea = () => {
                     </div>
                     <div className="counter__content">
                       <h2 className="count">
-                        <span className="counter-number">10</span> Years
+                        <span className="counter-number">15</span> Years
                       </h2>
                       <p>Experience</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <p className="text-justify">
+              <p style={{ textAlign: "justify" }}>
                 At IsoCert, we specialize in ISO certification, compliance, and
                 auditing services, helping businesses achieve internationally
                 recognized standards. Our mission is to empower organizations

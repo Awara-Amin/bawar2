@@ -37,6 +37,36 @@ const service_data: DataType[] = [
   {
     id: 1,
     page: "home_4",
+    // img: service_1,
+    img: "/images/services_img08.jpg",
+    icon: "flaticon-delivery-man",
+    title: "ISO 9001:2015 Certification - Quality Management System",
+    desc: "Achieve internationally recognized quality standards with ISO 9001:2015 certification. Our certification process ensures your organization meets the highest Quality Management System (QMS) requirements, improving efficiency, customer satisfaction, and regulatory compliance. We provide end-to-end support, from documentation to implementation and certification. Strengthen your business credibility and gain a competitive edge with our professional ISO certification services.",
+  },
+
+  {
+    id: 2,
+    page: "home_4",
+    // img: service_9,
+    img: "/images/services_img18.jpg",
+    // icon: "flaticon-warehouse",
+    icon: "flaticon-delivery-man",
+    title: "ISO 14001:2015 Certification - Environmental Management System",
+    desc: "Enhance your organization's environmental performance with ISO 14001:2015 certification. This internationally recognized standard helps businesses implement an effective Environmental Management System (EMS) to reduce environmental impact, comply with regulations, and improve sustainability. Our certification services guide you through the entire process, ensuring compliance and efficiency.",
+  },
+  {
+    id: 3,
+    page: "home_4",
+    // img: service_21,
+    img: "/images/services_img21.jpg",
+    icon: "flaticon-delivery-man",
+    title: "ISO 45001:2018 Certification – Occupational Health & Safety",
+    desc: "Protect your workforce and ensure a safer work environment with ISO 45001:2018 certification. This international standard for Occupational Health & Safety Management Systems (OH&S) helps organizations minimize workplace risks, prevent injuries, and comply with safety regulations. Our expert certification services guide you through implementation, ensuring compliance and continuous improvement. Demonstrate your commitment to employee well-being—contact us today to achieve ISO 45001 certification.",
+  },
+
+  {
+    id: 4,
+    page: "home_4",
     img: "/images/services_img11.jpg",
     // img: service_8,
     // icon: "flaticon-delivery-cart",
@@ -47,36 +77,19 @@ const service_data: DataType[] = [
     // desc: "Ensuring safety and quality in high-risk environments.",
     desc: "Set your business apart in the oil and gas industry with ISO 29001:2020 certification! This globally recognized standard ensures your Quality Management System (QMS) meets the highest industry requirements for safety, reliability, and operational excellence. Designed specifically for petroleum, petrochemical, and natural gas sectors, ISO 29001 helps you reduce risks, improve efficiency, and win the trust of major industry players.",
   },
-  {
-    id: 2,
-    page: "home_4",
-    // img: service_1,
-    img: "/images/services_img08.jpg",
-    icon: "flaticon-delivery-man",
-    title: "ISO 9001:2015 Certification - Quality Management System",
-    desc: "Achieve internationally recognized quality standards with ISO 9001:2015 certification. Our certification process ensures your organization meets the highest Quality Management System (QMS) requirements, improving efficiency, customer satisfaction, and regulatory compliance. We provide end-to-end support, from documentation to implementation and certification. Strengthen your business credibility and gain a competitive edge with our professional ISO certification services.",
-  },
-  {
-    id: 3,
-    page: "home_4",
-    // img: service_9,
-    img: "/images/services_img18.jpg",
-    // icon: "flaticon-warehouse",
-    icon: "flaticon-delivery-man",
-    title: "ISO 14001:2015 Certification - Environmental Management System",
-    desc: "Enhance your organization's environmental performance with ISO 14001:2015 certification. This internationally recognized standard helps businesses implement an effective Environmental Management System (EMS) to reduce environmental impact, comply with regulations, and improve sustainability. Our certification services guide you through the entire process, ensuring compliance and efficiency.",
-  },
-  {
-    id: 4,
-    page: "home_4",
-    // img: service_10,
-    img: "/images/services_img13.jpg",
-    // icon: "flaticon-warehouse",
-    icon: "flaticon-delivery-man",
-    title:
-      "ISO 22000:2018 Certification – Food Safety Management System (FSMS)",
-    desc: "Ensure the highest standards of food safety with ISO 22000:2018 certification. This internationally recognized Food Safety Management System (FSMS) helps catering services, food manufacturers, and suppliers prevent foodborne hazards, comply with regulations, and maintain hygiene and safety throughout the food chain. Our expert certification services guide you through the process, ensuring compliance and continuous improvement.",
-  },
+
+  // {
+  //   id: 4,
+  //   page: "home_4",
+  //   // img: service_10,
+  //   img: "/images/services_img13.jpg",
+  //   // icon: "flaticon-warehouse",
+  //   icon: "flaticon-delivery-man",
+  //   title:
+  //     "ISO 22000:2018 Certification – Food Safety Management System (FSMS)",
+  //   desc: "Ensure the highest standards of food safety with ISO 22000:2018 certification. This internationally recognized Food Safety Management System (FSMS) helps catering services, food manufacturers, and suppliers prevent foodborne hazards, comply with regulations, and maintain hygiene and safety throughout the food chain. Our expert certification services guide you through the process, ensuring compliance and continuous improvement.",
+  // },
+
   {
     id: 5,
     page: "home_4",
@@ -104,16 +117,6 @@ const service_data: DataType[] = [
   {
     id: 11,
     page: "inner_page",
-    img: "/images/services_img11.jpg",
-    // img: service_8,
-    icon: "flaticon-delivery-man",
-    title: "ISO 29001:2020 Certification – Elevate Quality in Oil & Gas",
-    // desc: "Ensuring safety and quality in high-risk environments.",
-    desc: "Set your business apart in the oil and gas industry with ISO 29001:2020 certification! This globally recognized standard ensures your Quality Management System (QMS) meets the highest industry requirements for safety, reliability, and operational excellence. Designed specifically for petroleum, petrochemical, and natural gas sectors, ISO 29001 helps you reduce risks, improve efficiency, and win the trust of major industry players.",
-  },
-  {
-    id: 12,
-    page: "inner_page",
     // img: service_1,
     img: "/images/services_img08.jpg",
     icon: "flaticon-delivery-man",
@@ -121,7 +124,7 @@ const service_data: DataType[] = [
     desc: "Achieve internationally recognized quality standards with ISO 9001:2015 certification. Our certification process ensures your organization meets the highest Quality Management System (QMS) requirements, improving efficiency, customer satisfaction, and regulatory compliance. We provide end-to-end support, from documentation to implementation and certification. Strengthen your business credibility and gain a competitive edge with our professional ISO certification services.",
   },
   {
-    id: 13,
+    id: 12,
     page: "inner_page",
     // img: service_9,
     img: "/images/services_img18.jpg",
@@ -131,14 +134,23 @@ const service_data: DataType[] = [
     desc: "Enhance your organization's environmental performance with ISO 14001:2015 certification. This internationally recognized standard helps businesses implement an effective Environmental Management System (EMS) to reduce environmental impact, comply with regulations, and improve sustainability. Our certification services guide you through the entire process, ensuring compliance and efficiency.",
   },
   {
+    id: 13,
+    page: "inner_page",
+    // img: service_21,
+    img: "/images/services_img21.jpg",
+    icon: "flaticon-delivery-man",
+    title: "ISO 45001:2018 Certification – Occupational Health & Safety",
+    desc: "Protect your workforce and ensure a safer work environment with ISO 45001:2018 certification. This international standard for Occupational Health & Safety Management Systems (OH&S) helps organizations minimize workplace risks, prevent injuries, and comply with safety regulations. Our expert certification services guide you through implementation, ensuring compliance and continuous improvement. Demonstrate your commitment to employee well-being—contact us today to achieve ISO 45001 certification.",
+  },
+  {
     id: 14,
     page: "inner_page",
-    // img: service_10,
-    img: "/images/services_img13.jpg",
+    img: "/images/services_img11.jpg",
+    // img: service_8,
     icon: "flaticon-delivery-man",
-    title:
-      "ISO 22000:2018 Certification – Food Safety Management System (FSMS)",
-    desc: "Ensure the highest standards of food safety with ISO 22000:2018 certification. This internationally recognized Food Safety Management System (FSMS) helps catering services, food manufacturers, and suppliers prevent foodborne hazards, comply with regulations, and maintain hygiene and safety throughout the food chain. Our expert certification services guide you through the process, ensuring compliance and continuous improvement.",
+    title: "ISO 29001:2020 Certification – Elevate Quality in Oil & Gas",
+    // desc: "Ensuring safety and quality in high-risk environments.",
+    desc: "Set your business apart in the oil and gas industry with ISO 29001:2020 certification! This globally recognized standard ensures your Quality Management System (QMS) meets the highest industry requirements for safety, reliability, and operational excellence. Designed specifically for petroleum, petrochemical, and natural gas sectors, ISO 29001 helps you reduce risks, improve efficiency, and win the trust of major industry players.",
   },
   {
     id: 15,
@@ -159,14 +171,16 @@ const service_data: DataType[] = [
       "ISO 15189:2012 Certification – Elevate Your Medical Laboratory Standards",
     desc: "Gain a competitive edge in the healthcare industry with ISO 15189:2012 certification, the international standard for Medical Laboratories – Quality and Competence. This certification ensures your laboratory meets the highest standards in accuracy, reliability, and efficiency, building trust with patients, healthcare providers, and regulatory bodies. Whether you run a clinical, diagnostic, or pathology lab, ISO 15189 enhances your credibility and opens new opportunities for partnerships and accreditation.",
   },
+
   {
     id: 17,
     page: "inner_page",
-    // img: service_21,
-    img: "/images/services_img21.jpg",
+    // img: service_10,
+    img: "/images/services_img13.jpg",
     icon: "flaticon-delivery-man",
-    title: "ISO 45001:2018 Certification – Occupational Health & Safety",
-    desc: "Protect your workforce and ensure a safer work environment with ISO 45001:2018 certification. This international standard for Occupational Health & Safety Management Systems (OH&S) helps organizations minimize workplace risks, prevent injuries, and comply with safety regulations. Our expert certification services guide you through implementation, ensuring compliance and continuous improvement. Demonstrate your commitment to employee well-being—contact us today to achieve ISO 45001 certification.",
+    title:
+      "ISO 22000:2018 Certification – Food Safety Management System (FSMS)",
+    desc: "Ensure the highest standards of food safety with ISO 22000:2018 certification. This internationally recognized Food Safety Management System (FSMS) helps catering services, food manufacturers, and suppliers prevent foodborne hazards, comply with regulations, and maintain hygiene and safety throughout the food chain. Our expert certification services guide you through the process, ensuring compliance and continuous improvement.",
   },
 
   {

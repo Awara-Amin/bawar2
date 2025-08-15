@@ -16,46 +16,52 @@ const Mission = () => {
                 data-wow-delay="0.1s"
               >
                 {/* <Image src={mission_thumb} alt="img" /> */}
-                <img src="/images/mission_img.jpg" alt="img" />
+                {/* <img src="/images/mission_img.jpg" alt="img" /> */}
+                <img src="/images/compliance.jpg" alt="img" />
               </div>
               <div className="mission__content">
                 <div className="section__title section__title-two mb-20">
-                  <span className="sub-title">Auditing Services</span>
-                  <h2 className="title">A Big Offer for indutry leaders</h2>
+                  <span className="sub-title">
+                    Compliance & Risk Management Services
+                  </span>
+                  {/* <h2 className="title">
+                    Ensuring compliance with international standards is
+                  </h2> */}
+                  <p className="text-justify [text-align:justify]">
+                    We provide expert documentation services to ensure accuracy,
+                    compliance, and efficiency.
+                  </p>
                 </div>
                 <p>
-                  We offer a range of auditing solutions to ensure compliance
-                  and operational excellence:
-                  {/* With over four decades experience providing solutions large
-                  scale enterprises throughout the globe we offer endend
-                  logistics tailored for specific markets. */}
+                  Ensuring compliance with international standards is essential
+                  for business sustainability. We provide:
                 </p>
+
                 <div className="about__list-box about__list-box-two about__list-box-three">
                   <ul className="list-wrap">
                     <li>
-                      ✔ Internal Audits – Assess your management systems for
-                      effectiveness and compliance.
+                      ✔ Regulatory Compliance Consulting – Align with industry
+                      and legal requirements.
                       {/* <i className="flaticon-check"></i>Internal Audits Assess
                       your management systems for effectiveness and compliance. */}
                     </li>
                     <li>
-                      ✔ External Audits – Prepare for third-party certification
-                      with confidence.
+                      ✔ Anti-Bribery & Corruption Policy Implementation –
+                      Strengthen ethical business practices.
                       {/* <i className="flaticon-check"></i>External Audits –
                       Prepare for third-party certification with confidence. */}
                     </li>
                     <li>
-                      ✔ Supplier & Vendor Audits – Verify compliance and
-                      quality within your supply chain.
+                      ✔ Risk Assessment & Mitigation Strategies – Proactively
+                      manage potential risks.
                       {/* <i className="flaticon-check"></i>Supplier & Vendor Audits
                       – Verify compliance and quality within your supply chain. */}
                     </li>
-                    <li>
+                    {/* <li>
                       ✔ Gap Analysis – Identify weaknesses and areas for
                       improvement before certification.
-                      {/* <i className="flaticon-check"></i>Gap Analysis – Identify
-                      weaknesses and areas for improvement before certification. */}
-                    </li>
+                    
+                    </li> */}
                   </ul>
                 </div>
                 <div className="shape">

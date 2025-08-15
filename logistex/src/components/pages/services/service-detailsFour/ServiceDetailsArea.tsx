@@ -334,13 +334,15 @@ const ServiceDetailsArea = () => {
     {
       id: 4,
       page: "home_4",
-      // img: service_10,
-      img: "/images/services_img13.jpg",
-      // icon: "flaticon-warehouse",
+      img: "/images/services_img11.jpg",
+      // img: service_8,
+      // icon: "flaticon-delivery-cart",
+
       icon: "flaticon-delivery-man",
-      title:
-        "ISO 22000:2018 Certification – Food Safety Management System (FSMS)",
-      desc: "Ensure the highest standards of food safety with ISO 22000:2018 certification. This internationally recognized Food Safety Management System (FSMS) helps catering services, food manufacturers, and suppliers prevent foodborne hazards, comply with regulations, and maintain hygiene and safety throughout the food chain. Our expert certification services guide you through the process, ensuring compliance and continuous improvement.",
+      // title: "ISO 29001:2020 Certification – Elevate Quality in Oil & Gas!",
+      title: "ISO 29001:2020 Certification – Elevate Quality in Oil & Gas",
+      // desc: "Ensuring safety and quality in high-risk environments.",
+      desc: "Set your business apart in the oil and gas industry with ISO 29001:2020 certification! This globally recognized standard ensures your Quality Management System (QMS) meets the highest industry requirements for safety, reliability, and operational excellence. Designed specifically for petroleum, petrochemical, and natural gas sectors, ISO 29001 helps you reduce risks, improve efficiency, and win the trust of major industry players.",
     },
   ]
   const [ref, inView] = useInView({

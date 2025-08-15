@@ -12,12 +12,13 @@ const CTA = () => {
         <div className="cta__wrap-two">
           <div className="cta__img">
             {/* <Image src={cta} alt="img" /> */}
+            {/* <img src="/images/cta_audit.jpg" alt="img1" /> */}
             <img src="/images/cta_audit.jpg" alt="img1" />
           </div>
           <div className="cta__content-two">
             <div className="content__left">
               <h2 className="title">
-                Would you Like to get The Best Audit Services?
+                Looking for Expert Compliance & Risk Management Services?
               </h2>
               {/* <p>Dapibus interdum senectus malesuada est nec morbi cursus.</p> */}
             </div>

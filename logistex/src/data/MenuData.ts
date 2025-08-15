@@ -42,14 +42,20 @@ const menu_data: MenuItem[] = [
     link: "#",
     sub_menus: [
       // { link: "/who-we-are", title: "Who We Are" },
-      { link: "/who-we-are", title: "Auditing Services" },
-      { link: "/risk", title: "Risk & Mangement Services" },
-      { link: "/isoTraining", title: "Iso Training Services" },
-      // { link: "/history", title: "Our Company History" },
       {
         link: "/Industries-We-Serve",
-        title: "Industries We Serve",
+        title: "ISO Certifications",
       },
+      { link: "/who-we-are", title: "Compliance & Risk Management" },
+      // { link: "/who-we-are", title: "Auditing Services" },
+      // { link: "/risk", title: "Risk & Mangement Services" },
+      { link: "/risk", title: "Oil & Gas Registration" },
+      { link: "/isoTraining", title: "Vendor Registration Support" },
+      // { link: "/history", title: "Our Company History" },
+      // {
+      //   link: "/Industries-We-Serve",
+      //   title: "Industries We Serve",
+      // },
       // {
       //   link: "/services",
       //   title: "Our Services",
@@ -91,6 +97,16 @@ const menu_data: MenuItem[] = [
     has_dropdown: false,
     title: "Contact",
     link: "/contact",
+  },
+  {
+    id: 5,
+    has_dropdown: false,
+    title: "Industries We Serve",
+    link: "/blog-details",
+    // sub_menus: [
+    //   { link: "/blog", title: "Our Blog" },
+    //   { link: "/blog-details", title: "Blog Details" },
+    // ],
   },
   // {
   //   id: 4,

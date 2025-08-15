@@ -14,7 +14,10 @@ const Risk = () => {
       <HeaderFour />
       <main className="fix">
         {/* <Breadcumb title="Who We Are" sub_title="Who We Are" /> */}
-        <Breadcumb title="Auditing Services" sub_title="Auditing Services" />
+        <Breadcumb
+          title="Oil & Gas Registration"
+          sub_title="Oil & Gas Registration Services"
+        />
         {/* <Mission /> */}
         <Vision />
         <CTA />

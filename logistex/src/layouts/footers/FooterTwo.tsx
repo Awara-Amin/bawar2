@@ -3,7 +3,8 @@ import Link from "next/link"
 
 // import logo from "@/assets/img/logo/w_logo.svg"
 // import logo from "@/assets/img/logo/isoCert-1-white.svg"
-import logo from "@/assets/img/logo/isoCert-1-red.svg"
+import logo from "@/assets/img/logo/isoCert-1-red_3.svg"
+// import logo from "@/assets/img/logo/mainLogo_1.svg"
 import shape_1 from "@/assets/img/images/inner_footer_shape01.svg"
 import shape_2 from "@/assets/img/images/inner_footer_shape02.svg"
 interface propsType {
@@ -39,7 +40,8 @@ const FooterTwo = ({ style }: propsType) => {
                 <div className="footer__social footer__social-two">
                   <ul className="list-wrap">
                     <li>
-                      <Link href="https://www.facebook.com/" target="_blank">
+                      {/* <Link href="https://www.facebook.com/" target="_blank"> */}
+                      <Link href="#" target="_blank">
                         <i className="fab fa-facebook-f"></i>
                       </Link>
                     </li>
@@ -54,7 +56,8 @@ const FooterTwo = ({ style }: propsType) => {
                       </Link>
                     </li> */}
                     <li>
-                      <Link href="https://www.instagram.com/" target="_blank">
+                      {/* <Link href="https://www.instagram.com/" target="_blank"> */}
+                      <Link href="#" target="_blank">
                         <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
@@ -82,21 +85,25 @@ const FooterTwo = ({ style }: propsType) => {
                 <div className="footer__link footer__link-two">
                   <ul className="list-wrap">
                     <li>
+                      {/* <Link href="/services-details">Ocean Fright</Link> */}
+                      <Link href="/Industries-We-Serve">
+                        ISO Certification Services
+                      </Link>
+                    </li>
+                    <li>
                       {/* <Link href="/services-details">Auditing</Link> */}
-                      <Link href="/who-we-are">Auditing</Link>
+                      <Link href="/who-we-are">
+                        Compliance & Risk Management Services
+                      </Link>
                     </li>
                     <li>
                       {/* <Link href="/services-details">Risk & Management</Link> */}
-                      <Link href="/risk">Risk & Management</Link>
+                      <Link href="/risk">Oil & Gas Registration Services</Link>
                     </li>
                     <li>
                       {/* <Link href="/services-details">Train Freight</Link> */}
-                      <Link href="/isoTraining">Iso Training</Link>
-                    </li>
-                    <li>
-                      {/* <Link href="/services-details">Ocean Fright</Link> */}
-                      <Link href="/Industries-We-Serve">
-                        Industries We Serve
+                      <Link href="/isoTraining">
+                        Vendor Registration Support Services
                       </Link>
                     </li>
                     {/* <li>
@@ -153,12 +160,12 @@ const FooterTwo = ({ style }: propsType) => {
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <Link href="tel:0123456789">+(964) 750 102 9996</Link>
+                      <Link href="tel:0123456789">+(964) 0787 4946122</Link>
                     </li>
 
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <Link href="tel:0123456789">+(964) 750 4946122</Link>
+                      <Link href="tel:0123456789">+(964) 0750 4946122</Link>
                     </li>
 
                     {/* <li>

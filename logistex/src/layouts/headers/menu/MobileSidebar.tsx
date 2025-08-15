@@ -3,7 +3,7 @@ import Link from "next/link"
 
 // import logo from "@/assets/img/logo/logo.svg"
 // import logo from "@/assets/img/logo/isoCert2.svg"
-import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
+import logo from "@/assets/img/logo/isoCert-1-red_3.svg"
 import NavMenu from "./NavMenu"
 
 interface MobileSidebarProps {
@@ -31,7 +31,7 @@ const MobileSidebar = ({ isActive, setIsActive }: MobileSidebarProps) => {
               </button>
             </form> */}
           </div>
-          <div className="tgmobile__menu-outer">
+          <div className="tgmenu__navbar-wrap tgmenu__main-menu">
             <NavMenu />
           </div>
           <div className="tg-header__top-info tg-header__top-info-two left-side list-wrap">
@@ -41,7 +41,7 @@ const MobileSidebar = ({ isActive, setIsActive }: MobileSidebarProps) => {
               <li className="mt-50">
                 <i className="flaticon-telephone mr-30"> </i>
                 <a href="#" className=" m-30">
-                  0759 494 6122
+                  +(964) 0787 4946122
                 </a>
               </li>
               <li className="mt-20">

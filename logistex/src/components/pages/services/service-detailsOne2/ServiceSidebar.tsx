@@ -49,7 +49,7 @@ const ServiceSidebar = () => {
         <div className="services__widget services__widget-two">
           <div className="sidebar__logo">
             <Link href="/">
-              <Image src={sevice_details1} alt="logo" />
+              <Image src={sevice_details1} alt="logo" width={100} height={15} />
             </Link>
           </div>
           <div className="sidebar__contact">

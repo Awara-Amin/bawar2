@@ -10,7 +10,10 @@ const IndustriesWeServe = () => {
       <ScrollToTop />
       <HeaderFour />
       <main className="fix">
-        <Breadcumb title="How it’s Work" sub_title="How it’s Work" />
+        <Breadcumb
+          title="ISO Certification"
+          sub_title="ISO Certification Services"
+        />
         <HowItWorkArea />
       </main>
       <FooterTwo />

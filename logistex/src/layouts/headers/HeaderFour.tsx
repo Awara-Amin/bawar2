@@ -10,7 +10,10 @@ import MobileSidebar from "./menu/MobileSidebar"
 
 // import logo from "@/assets/img/logo/logo02.svg"
 // import logo from "@/assets/img/logo/isoCert2.svg"
-import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
+// import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
+// import logo from "@/assets/img/logo/mainLogo.svg"
+import logo from "@/assets/img/logo/isoCert-1-red_3.svg"
+
 import HeaderTopFour from "./HeaderTopFour"
 
 const HeaderFour = () => {
@@ -42,8 +45,8 @@ const HeaderFour = () => {
                       src={logo}
                       alt="Logo"
                       width={120}
-                      height={20}
-                      className="pt-10"
+                      height={40}
+                      className="pt-2 pb-2"
                     />
                   </Link>
                 </div>

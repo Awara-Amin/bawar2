@@ -18,10 +18,11 @@ const Service = () => {
         <div className="row align-items-center">
           <div className="col-xl-9 col-lg-9 col-md-10">
             <div className="section__title mb-50 mb-md-30">
-              <span className="sub-title mt-5">Industries We Serve</span>
+              {/* <span className="sub-title mt-5">ISO Standards</span> */}
               <h2 className="title">
-                We help diverse industries achieve certification—our expertise
-                spans multiple standards.
+                {/* We help diverse industries achieve certification—our expertise
+                spans multiple standards. */}
+                ISO Standards
               </h2>
             </div>
           </div>

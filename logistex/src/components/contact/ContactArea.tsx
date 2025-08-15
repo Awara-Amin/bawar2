@@ -53,11 +53,11 @@ const ContactArea = () => {
               </h4>
               <p className="info-one">
                 {/* 16 Rue Auguste Cain, 75014 Paris, <br /> France */}
-                +(964) 750 102 9996
+                +(964) 0787 494 6122
               </p>
               <p className="info-one">
                 {/* 16 Rue Auguste Cain, 75014 Paris, <br /> France */}
-                +(964) 750 4946122
+                +(964) 0750 494 6122
               </p>
               {/* <h4 className="title">
                 <Link href="tel:0123456789">+(09) 1256 7845</Link>

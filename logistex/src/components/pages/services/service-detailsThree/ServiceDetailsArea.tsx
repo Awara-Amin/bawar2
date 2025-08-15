@@ -331,15 +331,24 @@ import { useInView } from "react-intersection-observer"
 
 const ServiceDetailsArea = () => {
   const service_data: DataType[] = [
+    // {
+    //   id: 3,
+    //   page: "home_4",
+    //   // img: service_9,
+    //   img: "/images/services_img18.jpg",
+    //   // icon: "flaticon-warehouse",
+    //   icon: "flaticon-delivery-man",
+    //   title: "ISO 14001:2015 Certification - Environmental Management System",
+    //   desc: "Enhance your organization's environmental performance with ISO 14001:2015 certification. This internationally recognized standard helps businesses implement an effective Environmental Management System (EMS) to reduce environmental impact, comply with regulations, and improve sustainability. Our certification services guide you through the entire process, ensuring compliance and efficiency.",
+    // },
     {
       id: 3,
       page: "home_4",
-      // img: service_9,
-      img: "/images/services_img18.jpg",
-      // icon: "flaticon-warehouse",
+      // img: service_21,
+      img: "/images/services_img21.jpg",
       icon: "flaticon-delivery-man",
-      title: "ISO 14001:2015 Certification - Environmental Management System",
-      desc: "Enhance your organization's environmental performance with ISO 14001:2015 certification. This internationally recognized standard helps businesses implement an effective Environmental Management System (EMS) to reduce environmental impact, comply with regulations, and improve sustainability. Our certification services guide you through the entire process, ensuring compliance and efficiency.",
+      title: "ISO 45001:2018 Certification – Occupational Health & Safety",
+      desc: "Protect your workforce and ensure a safer work environment with ISO 45001:2018 certification. This international standard for Occupational Health & Safety Management Systems (OH&S) helps organizations minimize workplace risks, prevent injuries, and comply with safety regulations. Our expert certification services guide you through implementation, ensuring compliance and continuous improvement. Demonstrate your commitment to employee well-being—contact us today to achieve ISO 45001 certification.",
     },
   ]
   const [ref, inView] = useInView({

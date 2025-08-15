@@ -17,7 +17,10 @@ const IsoTraining = () => {
       <HeaderFour />
       <ScrollToTop />
       <main className="fix">
-        <Breadcumb sub_title="About Us" title="About Us" />
+        <Breadcumb
+          sub_title="Vendor Registration Support Services"
+          title="Vendor Registration Support"
+        />
         <AboutArea />
         {/* <FeaturesArea /> */}
         {/* <VideoArea /> */}

@@ -20,7 +20,7 @@ const AboutArea = () => {
                 data-aos-delay="400"
               /> */}
               <img
-                src="/images/iso-4.jpg"
+                src="/images/vendor.jpg"
                 alt="img"
                 data-aos="fade-right"
                 data-aos-delay="400"
@@ -36,33 +36,51 @@ const AboutArea = () => {
           <div className="col-lg-6">
             <div className="about__content-two">
               <div className="section__title section__title-two mb-20">
-                <span className="sub-title">ISO Training & Consultation</span>
-                <h2 className="title">
-                  Enhance your team’s knowledge and skills with expert-led
-                  training:
-                </h2>
+                <span className="sub-title">
+                  Vendor Registration Support Services
+                </span>
+                {/* <h2 className="title">
+                  We assist companies in registering and managing their profiles
+                  on procurement and compliance platforms such as:
+                </h2> */}
               </div>
               {/* <p className="info-one">
-                At ISO, we specialize in ISO certification, compliance, and
-                auditing services, helping businesses achieve internationally
-                recognized standards. Our mission is to empower organizations
-                with robust management systems that drive quality, efficiency,
-                and global competitiveness.
+                We assist companies in registering and managing their profiles
+                on procurement and compliance platforms such as:
               </p> */}
               <div className="about__content-inner">
                 <div className="about__list-box about__list-box-two">
                   <ul className="list-wrap">
                     <li>
-                      <i className="flaticon-check"></i> ISO Awareness &
-                      Implementation Training
+                      ✔ Assist companies in registering and managing profiles
+                      on procurement and compliance platforms, including
                     </li>
                     <li>
-                      <i className="flaticon-check"></i>Lead Auditor & Internal
-                      Auditor Training
+                      <i className="flaticon-check"></i> SAM.gov (U.S.
+                      Government Vendor Registration)
                     </li>
                     <li>
-                      <i className="flaticon-check"></i>Risk-Based Thinking &
-                      Process Improvement Workshops
+                      <i className="flaticon-check"></i>ISNetworld (ISN)
+                    </li>
+                    <li>
+                      <i className="flaticon-check"></i>SAP Ariba
+                    </li>
+                    <li>
+                      ✔ Provide professional support in completing
+                      registrations and ensuring compliance with regulatory and
+                      procurement requirements.
+                    </li>
+                    <li>
+                      ✔ Optimize profiles for greater contract eligibility.
+                    </li>
+                    <li>
+                      ✔ Help businesses access government contracts,
+                      international supply chains, and corporate procurement
+                      networks.
+                    </li>
+                    <li>
+                      ✔ Simplify registration processes and expand market reach
+                      globally.
                     </li>
                     {/* <li>
                       <i className="flaticon-check"></i> Experniced and
@@ -91,16 +109,10 @@ const AboutArea = () => {
                   </div>
                 </div> */}
               </div>
-              {/* <p>
-                At BSA, we specialize in ISO certification, compliance, and
-                auditing services, helping businesses achieve internationally
-                recognized standards. Our mission is to empower organizations
-                with robust management systems that drive quality, efficiency,
-                and global competitiveness. With extensive experience in ISO
-                consulting, we ensure a smooth certification process, allowing
-                you to focus on growing your business while we handle compliance
-                and auditing.
-              </p> */}
+              <p>
+                Note: We are a third-party service provider and not affiliated
+                with or endorsed by SAM.gov, ISNetworld, or SAP Ariba.
+              </p>
             </div>
           </div>
         </div>

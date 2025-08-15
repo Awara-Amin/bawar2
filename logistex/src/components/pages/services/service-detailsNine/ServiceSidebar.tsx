@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 // import sevice_details1 from "@/assets/img/logo/logo02.svg"
-import sevice_details1 from "@/assets/img/logo/isoCert2.svg"
+import sevice_details1 from "@/assets/img/logo/isoCert-1-red_3.svg"
 
 import InjectableSvg from "@/components/common/InjectableSvg"
 
@@ -49,7 +49,7 @@ const ServiceSidebar = () => {
         <div className="services__widget services__widget-two">
           <div className="sidebar__logo">
             <Link href="/">
-              <Image src={sevice_details1} alt="logo" />
+              <Image src={sevice_details1} alt="logo" width={100} height={15} />
             </Link>
           </div>
           <div className="sidebar__contact">
@@ -58,7 +58,7 @@ const ServiceSidebar = () => {
               For Certification
             </h2>
             <Link href="tle:0123456789" className="sidebar__phone">
-              <i className="flaticon-telephone"></i>+(964) 750 1029996
+              <i className="flaticon-telephone"></i>+(964) 0787 4946122
             </Link>
             {/* <Link href="tle:0123456789" className="sidebar__phone">
               <i className="flaticon-telephone"></i>(+964) 750 4946122

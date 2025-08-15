@@ -5,17 +5,20 @@ import HeaderFour from "@/layouts/headers/HeaderFour"
 import BlogDetailsArea from "./BlogDetailsArea"
 
 const BlogDetails = () => {
-   return (
-      <div className="theme-red">
-         <ScrollToTop />
-         <HeaderFour />
-         <main className="fix">
-            <Breadcumb title="Blog Details" sub_title="Blog Details" />
-            <BlogDetailsArea />
-         </main>
-         <FooterTwo />
-      </div>
-   )
+  return (
+    <div className="theme-red">
+      <ScrollToTop />
+      <HeaderFour />
+      <main className="fix">
+        <Breadcumb
+          title="Industries We Serve"
+          sub_title="Industries We Serve"
+        />
+        <BlogDetailsArea />
+      </main>
+      <FooterTwo />
+    </div>
+  )
 }
 
 export default BlogDetails

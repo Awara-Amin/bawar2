@@ -13,7 +13,10 @@ const WhoWeAre = () => {
       <HeaderFour />
       <main className="fix">
         {/* <Breadcumb title="Who We Are" sub_title="Who We Are" /> */}
-        <Breadcumb title="Auditing Services" sub_title="Auditing Services" />
+        <Breadcumb
+          title="Compliance & Risk Management"
+          sub_title="Compliance & Risk Management Services"
+        />
         <Mission />
         {/* <Vision /> */}
         <CTA />

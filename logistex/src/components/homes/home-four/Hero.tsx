@@ -25,15 +25,15 @@ const hero_data: DataType[] = [
       <>
         {/* when an unknown printer took a galley of type and company need scra make
         it better future to make attempt type specimen. */}
-        IsoCert in Kurdistan region is one of the most trusted and widely used
-        service providers, known for offering high-quality services.
+        IsoCert is one of the most trusted and widely used service providers,
+        known for offering high-quality services.
       </>
     ),
   },
   {
     id: 2,
     // img: "/assets/img/slider/h4_slider_bg02.jpg",
-    img: "/assets/img/slider/h4_slider_bg02_awara.jpg",
+    img: "/assets/img/slider/banner.jpg",
     // sub_title: "Efficiency & Productivity",
     sub_title: "",
     title: "We Values Customer Satisfaction",

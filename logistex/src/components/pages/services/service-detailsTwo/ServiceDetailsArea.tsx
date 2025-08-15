@@ -334,11 +334,12 @@ const ServiceDetailsArea = () => {
     {
       id: 2,
       page: "home_4",
-      // img: service_1,
-      img: "/images/services_img08.jpg",
+      // img: service_9,
+      img: "/images/services_img18.jpg",
+      // icon: "flaticon-warehouse",
       icon: "flaticon-delivery-man",
-      title: "ISO 9001:2015 Certification - Quality Management System",
-      desc: "Achieve internationally recognized quality standards with ISO 9001:2015 certification. Our certification process ensures your organization meets the highest Quality Management System (QMS) requirements, improving efficiency, customer satisfaction, and regulatory compliance. We provide end-to-end support, from documentation to implementation and certification. Strengthen your business credibility and gain a competitive edge with our professional ISO certification services.",
+      title: "ISO 14001:2015 Certification - Environmental Management System",
+      desc: "Enhance your organization's environmental performance with ISO 14001:2015 certification. This internationally recognized standard helps businesses implement an effective Environmental Management System (EMS) to reduce environmental impact, comply with regulations, and improve sustainability. Our certification services guide you through the entire process, ensuring compliance and efficiency.",
     },
   ]
   const [ref, inView] = useInView({

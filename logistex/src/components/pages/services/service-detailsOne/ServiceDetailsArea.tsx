@@ -21,15 +21,11 @@ const ServiceDetailsArea = () => {
     {
       id: 1,
       page: "home_4",
-      img: "/images/services_img11.jpg",
-      // img: service_8,
-      // icon: "flaticon-delivery-cart",
-
+      // img: service_1,
+      img: "/images/services_img08.jpg",
       icon: "flaticon-delivery-man",
-      // title: "ISO 29001:2020 Certification – Elevate Quality in Oil & Gas!",
-      title: "ISO 29001:2020 Certification – Elevate Quality in Oil & Gas",
-      // desc: "Ensuring safety and quality in high-risk environments.",
-      desc: "Set your business apart in the oil and gas industry with ISO 29001:2020 certification! This globally recognized standard ensures your Quality Management System (QMS) meets the highest industry requirements for safety, reliability, and operational excellence. Designed specifically for petroleum, petrochemical, and natural gas sectors, ISO 29001 helps you reduce risks, improve efficiency, and win the trust of major industry players.",
+      title: "ISO 9001:2015 Certification - Quality Management System",
+      desc: "Achieve internationally recognized quality standards with ISO 9001:2015 certification. Our certification process ensures your organization meets the highest Quality Management System (QMS) requirements, improving efficiency, customer satisfaction, and regulatory compliance. We provide end-to-end support, from documentation to implementation and certification. Strengthen your business credibility and gain a competitive edge with our professional ISO certification services.",
     },
   ]
   const [ref, inView] = useInView({

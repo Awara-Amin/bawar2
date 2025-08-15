@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 
 // import logo from "@/assets/img/logo/logo.svg"
-// import logo from "@/assets/img/logo/isoCert2.svg"
-import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
+import logo from "@/assets/img/logo/isoCert-1-red_3.svg"
+// import logo from "@/assets/img/logo/isoCert-1-blue_1.svg"
 
 interface MobileSidebarProps {
   offCanvas: boolean
@@ -32,8 +32,8 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                </div> */}
           <div className="contact-list mb-30">
             <h4>Phone Number</h4>
-            <p>+0964 0750 494 6122</p>
-            {/* <p>+(090) 8765 86543 85</p> */}
+            <p>+(964) 0787 494 6122</p>
+            <p>+(964) 0750 494 6122</p>
           </div>
           <div className="contact-list mb-30">
             <h4>Email Address</h4>

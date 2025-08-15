@@ -334,11 +334,12 @@ const ServiceDetailsArea = () => {
     {
       id: 17,
       page: "inner_page",
-      // img: service_21,
-      img: "/images/services_img21.jpg",
+      // img: service_10,
+      img: "/images/services_img13.jpg",
       icon: "flaticon-delivery-man",
-      title: "ISO 45001:2018 Certification – Occupational Health & Safety",
-      desc: "Protect your workforce and ensure a safer work environment with ISO 45001:2018 certification. This international standard for Occupational Health & Safety Management Systems (OH&S) helps organizations minimize workplace risks, prevent injuries, and comply with safety regulations. Our expert certification services guide you through implementation, ensuring compliance and continuous improvement. Demonstrate your commitment to employee well-being—contact us today to achieve ISO 45001 certification.",
+      title:
+        "ISO 22000:2018 Certification – Food Safety Management System (FSMS)",
+      desc: "Ensure the highest standards of food safety with ISO 22000:2018 certification. This internationally recognized Food Safety Management System (FSMS) helps catering services, food manufacturers, and suppliers prevent foodborne hazards, comply with regulations, and maintain hygiene and safety throughout the food chain. Our expert certification services guide you through the process, ensuring compliance and continuous improvement.",
     },
   ]
   const [ref, inView] = useInView({

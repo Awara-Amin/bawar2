@@ -12,12 +12,13 @@ const CTA = () => {
         <div className="cta__wrap-two">
           <div className="cta__img">
             {/* <Image src={cta} alt="img" /> */}
-            <img src="/images/cta_risk.jpg" alt="img" />
+            <img src="/images/oil_gas.jpg" alt="img" />
           </div>
           <div className="cta__content-two">
             <div className="content__left">
               <h2 className="title">
-                Need help with compliance, risk management, and sustainability?{" "}
+                Need help registering your oil and gas company in Iraq and
+                Kurdistan?
               </h2>
               {/* <p>Dapibus interdum senectus malesuada est nec morbi cursus.</p> */}
             </div>

@@ -22,81 +22,63 @@ const Vision = () => {
                 data-wow-delay="0.1s"
               >
                 {/* <Image src={vission_thumb} alt="img" /> */}
-                <img src="/images/vision_img.jpg" alt="img" />
+                {/* <img src="/images/vision_img.jpg" alt="img" /> */}
+                <img src="/images/oil.jpg" alt="img" />
               </div>
               <div className="vision__content">
                 <div className="section__title section__title-two mb-25">
                   <span className="sub-title">
-                    Compliance & Risk Management
+                    Oil & Gas Registration Services
                   </span>
-                  <h2 className="title">Sustainability For indutry leaders</h2>
+                  {/* <h2 className="title">Sustainability For indutry leaders</h2> */}
                 </div>
-                <p>
-                  Ensuring compliance with international standards is essential
-                  for business sustainability. We provide:
-                </p>
-                {/* <div className="progress__wrap progress__wrap-three" ref={ref}>
-                  <div className="progress__item progress__item-three">
-                    <div className="progress__item-top">
-                      <h3 className="progress__title">Successful Delivery</h3>
-                      <div className="progress-value">
-                        <span className="counter-number">82</span>%
-                      </div>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        style={{
-                          width: "82%",
-                          animation: inView ? "animate-positive 1.8s" : "none",
-                          opacity: inView ? "1" : "0",
-                        }}
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="progress__item progress__item-three">
-                    <div className="progress__item-top">
-                      <h3 className="progress__title">Happy Customers</h3>
-                      <div className="progress-value">
-                        <span className="counter-number">90</span>%
-                      </div>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar"
-                        style={{
-                          width: "90%",
-                          animation: inView ? "animate-positive 1.8s" : "none",
-                          opacity: inView ? "1" : "0",
-                        }}
-                      ></div>
-                    </div>
-                  </div>
-                </div> */}
+                {/* <p>
+                
+                  We provide expert assistance in:
+                </p> */}
+
                 <div className="about__list-box about__list-box-two about__list-box-three">
                   <ul className="list-wrap">
                     <li>
-                      ✔ Regulatory Compliance Consulting – Align with industry
-                      and legal requirements.
-                      {/* <i className="flaticon-check"></i>Internal Audits Assess
-                      your management systems for effectiveness and compliance. */}
+                      ✔ Expert assistance in registering companies with Iraqi
+                      and international oil companies (IOCs), including:
                     </li>
-                    <li>
-                      ✔ Anti-Bribery & Corruption Policy Implementation –
-                      Strengthen ethical business practices.
+                    <span
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "2px",
+                        marginTop: "2px",
+                      }}
+                    >
+                      <span>• Basra Oil Company</span>
+                      <span>• Basra Gas Company</span>
+                      <span>• Other public sector entities</span>
+                      <span>• Major operators in Iraq</span>
+                    </span>
+
+                    <li className="pt-2">
+                      ✔ Support for registration with the Kurdistan Regional
+                      Government's Ministry of Natural Resources (MNR). Approved
+                      Vendor List (AVL) system.
                       {/* <i className="flaticon-check"></i>External Audits –
                       Prepare for third-party certification with confidence. */}
                     </li>
                     <li>
-                      ✔ Risk Assessment & Mitigation Strategies – Proactively
-                      manage potential risks.
-                      {/* <i className="flaticon-check"></i>Supplier & Vendor Audits
-                      – Verify compliance and quality within your supply chain. */}
+                      ✔ Ensure full compliance with local regulations, industry
+                      requirements, and procurement standards.
                     </li>
-                    {/* <li>
-                      <i className="flaticon-check"></i>Gap Analysis – Identify
-                      weaknesses and areas for improvement before certification.
-                    </li> */}
+                    <li>
+                      ✔ Facilitate business approval for contracts and tenders.
+                    </li>
+                    <li>
+                      ✔ Manage the entire process from documentation
+                      preparation to submission and follow-up.
+                    </li>
+                    <li>
+                      ✔ Help expand business opportunities in Iraq and the
+                      Kurdistan Region’s growing energy sector.
+                    </li>
                   </ul>
                 </div>
               </div>

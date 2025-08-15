@@ -11,11 +11,14 @@ const HowItWorkArea = () => {
     <section className="work__area-three section-pt-120 section-pb-90">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6"> */}
+          <div className="col-lg-12">
             <div className="section__title text-center mb-50">
-              <span className="sub-title">HOW IT WORKS</span>
+              {/* <span className="sub-title">HOW IT WORKS</span> */}
               <h2 className="title">
-                How We Operate Unveiling <br /> Our Logistics Process
+                We guide businesses through the certification process for a wide
+                range of ISO standards, including:
+                {/* How We Operate Unveiling <br /> Our Logistics Process */}
               </h2>
             </div>
           </div>
