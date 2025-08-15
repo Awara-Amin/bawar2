@@ -12,7 +12,8 @@ import BlogSidebar from "../blog/BlogSidebar"
 // import blog_details1 from "@/assets/img/blog/indus.jpg"
 // import inner_img from "@/assets/img/blog/h2_blog_img02.jpg"
 
-const BlogDetailsArea = ({ single_blog }: any) => {
+// const BlogDetailsArea = ({ single_blog }: any) => {
+const BlogDetailsArea = () => {
   //   const [isVideoOpen, setIsVideoOpen] = useState(false)
 
   return (
@@ -34,9 +35,10 @@ const BlogDetailsArea = ({ single_blog }: any) => {
                 </div>
                 <div className="blog__details-content">
                   <h3 className="title">
-                    {single_blog?.title
+                    Industries We Serve
+                    {/* {single_blog?.title
                       ? single_blog.title
-                      : "Industries We Serve"}
+                      : "Industries We Serve"} */}
                   </h3>
                   <p>
                     We work with businesses across various industries, helping
@@ -76,7 +78,7 @@ const BlogDetailsArea = ({ single_blog }: any) => {
 
                   <blockquote>
                     <p>
-                      “ ISOCERT COMPANY partners with businesses across diverse
+                      “ISOCERT COMPANY partners with businesses across diverse
                       industries to achieve certification and compliance
                       excellence. ”
                     </p>
