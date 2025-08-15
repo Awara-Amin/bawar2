@@ -78,7 +78,7 @@ const BlogSidebar = () => {
             for a free consultation. We can build a stronger, more compliant
             future for your organization.
           </p>
-          <p> We are open 24/7 for welcoming your call and text messsages</p>
+          {/* <p> We are open 24/7 for welcoming your call and text messsages</p> */}
           <p>You cal also email us on info@isocert.krd.</p>
         </div>
       </aside>

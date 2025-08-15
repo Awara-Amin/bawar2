@@ -86,12 +86,12 @@ const BlogDetailsArea = () => {
 
                   <div className="blog__details-content-inner">
                     <h4 className="inner-title">Why Choose Us?</h4>
-                    <p>
+                    {/* <p>
                       Maximus ligula eleifend id nisl quis interdum. Sed
                       malesuada tortor non turpis semper bibendum. Ut ac nisi
                       porta, malesuada risus non viverra dolor. Vestibulum ante
                       ipsum primis in faucibus orci luctus et ultrices posuere.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="blog__details-inner-wrap">
                     <div className="row">

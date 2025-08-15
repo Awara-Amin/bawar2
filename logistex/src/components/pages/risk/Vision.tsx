@@ -59,8 +59,8 @@ const Vision = () => {
 
                     <li className="pt-2">
                       ✔ Support for registration with the Kurdistan Regional
-                      Government's Ministry of Natural Resources (MNR). Approved
-                      Vendor List (AVL) system.
+                      Government&apos;s Ministry of Natural Resources (MNR).
+                      Approved Vendor List (AVL) system.
                       {/* <i className="flaticon-check"></i>External Audits –
                       Prepare for third-party certification with confidence. */}
                     </li>
@@ -77,7 +77,7 @@ const Vision = () => {
                     </li>
                     <li>
                       ✔ Help expand business opportunities in Iraq and the
-                      Kurdistan Region’s growing energy sector.
+                      Kurdistan Region&apos;s growing energy sector.
                     </li>
                   </ul>
                 </div>
