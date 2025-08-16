@@ -9,7 +9,8 @@ const Breadcumb = ({ title, sub_title }: PropsType) => {
   return (
     <section
       className="breadcrumb__area breadcrumb__bg"
-      style={{ backgroundImage: `url(/assets/img/bg/breadcrumb_bg.jpg)` }}
+      // style={{ backgroundImage: `url(/assets/img/bg/breadcrumb_bg.jpg)` }}
+      style={{ backgroundImage: `url(/assets/img/bg/bgg.jpg)` }}
     >
       <div className="container">
         <div className="row">

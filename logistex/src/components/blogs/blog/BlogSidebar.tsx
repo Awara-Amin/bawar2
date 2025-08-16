@@ -70,7 +70,7 @@ const BlogSidebar = () => {
           </p>
         </div>
         <div className="blog-widget">
-          <h4 className="widget-title">Get Certified Today!</h4>
+          <h4 className="widget-title">Find Out Us On:</h4>
           {/* <Image src={whatsApp} alt="image" /> */}
           <img src="/images/whatsApp.jpg" alt="img" />
           <p className="pt-3">
