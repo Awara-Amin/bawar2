@@ -32,13 +32,13 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                </div> */}
           <div className="contact-list mb-30">
             <h4>Phone Number</h4>
-            <p>+(964) 0787 494 6122</p>
-            <p>+(964) 0750 494 6122</p>
+            <p>+(964) 787 494 6122</p>
+            <p>+(964) 750 494 6122</p>
           </div>
           <div className="contact-list mb-30">
             <h4>Email Address</h4>
             <p>info@isocert.com</p>
-            <p>bawarmoon@gmail.com</p>
+            {/* <p>bawarmoon@gmail.com</p> */}
           </div>
           <div className="contact-list mb-30">
             <h4>Office Address</h4>
