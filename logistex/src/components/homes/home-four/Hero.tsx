@@ -20,7 +20,7 @@ const hero_data: DataType[] = [
     // sub_title: "Fastest & Secure Logistics",
     // sub_title: "Quality & Reliability",
     sub_title: "",
-    title: "IsoCert Provides Smartest & Simpleest",
+    title: "IsoCert Provides Smartest & Simplest",
     desc: (
       <>
         {/* when an unknown printer took a galley of type and company need scra make

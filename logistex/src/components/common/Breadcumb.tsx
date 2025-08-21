@@ -19,7 +19,7 @@ const Breadcumb = ({ title, sub_title }: PropsType) => {
               <h1 className="title">{title}</h1>
               <nav className="breadcrumb">
                 <span property="itemListElement" typeof="ListItem">
-                  <Link href="/">Home-1</Link>
+                  <Link href="/">Home</Link>
                 </span>
                 <span className="breadcrumb-separator">
                   <i className="flaticon-right-arrow"></i>

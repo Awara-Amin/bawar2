@@ -15,7 +15,8 @@ const HeaderTopFour = () => {
                 <a href="mailto:info@gmail.com">info@isocert.krd</a>
               </li> */}
               <li>
-                <i className="flaticon-time"></i>Mon – Sun: 9.00 am – 6.00pm
+                <i className="flaticon-time"></i>
+                Saturday to Thursday 9:00 am to 5:00 pm
               </li>
             </ul>
           </div>

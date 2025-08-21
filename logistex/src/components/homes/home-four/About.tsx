@@ -199,7 +199,7 @@ const About = () => {
                   </div>
                   <div className="content">
                     {/* <span>Hot Line Number</span> */}
-                    <a href="tel:0123456789">+(964) 0787 494 6122</a>
+                    <a href="tel:0123456789">+(964) 787 494 6122</a>
                   </div>
                 </div>
                 <div className="about__contact">
@@ -208,7 +208,7 @@ const About = () => {
                   </div>
                   <div className="content">
                     {/* <span>Hot Line Number</span> */}
-                    <a href="tel:0123456789">+(964) 0750 494 6122</a>
+                    <a href="tel:0123456789">+(964) 750 494 6122</a>
                   </div>
                 </div>
               </div>

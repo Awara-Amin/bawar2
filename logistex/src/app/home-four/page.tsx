@@ -1,15 +1,16 @@
-import HomeFour from "@/components/homes/home-four";
-import Wrapper from "@/layouts/Wrapper";
+import HomeFour from "@/components/homes/home-four"
+import Wrapper from "@/layouts/Wrapper"
 
 export const metadata = {
-   title: "home Four Logistex - Transport & Logistics React Next js Template",
-};
+  // title: "home Four Logistex - Transport & Logistics React Next js Template",
+  title: "ISOCERT - Certify With Cofidence",
+}
 const page = () => {
-   return (
-      <Wrapper>
-         <HomeFour />
-      </Wrapper>
-   )
+  return (
+    <Wrapper>
+      <HomeFour />
+    </Wrapper>
+  )
 }
 
 export default page
