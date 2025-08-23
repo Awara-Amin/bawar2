@@ -41,7 +41,7 @@ const MobileSidebar = ({ isActive, setIsActive }: MobileSidebarProps) => {
               <li className="mt-50">
                 <i className="flaticon-telephone mr-30"> </i>
                 <a href="#" className=" m-30">
-                  +(964) 787 4946122
+                  (+964) 787 4946122
                 </a>
               </li>
               <li className="mt-20">

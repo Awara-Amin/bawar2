@@ -59,7 +59,7 @@ const ServiceSidebar = () => {
               For Certification
             </h2>
             <Link href="tle:0123456789" className="sidebar__phone">
-              <i className="flaticon-telephone"></i>+(964) 787 4946122
+              <i className="flaticon-telephone"></i>(+964) 787 4946122
             </Link>
             {/* <Link href="tle:0123456789" className="sidebar__phone">
               <i className="flaticon-telephone"></i>(+964) 750 4946122

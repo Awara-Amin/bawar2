@@ -160,12 +160,12 @@ const FooterTwo = ({ style }: propsType) => {
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <Link href="tel:0123456789">+(964) 787 4946122</Link>
+                      <Link href="tel:0123456789">(+964) 787 494 6122</Link>
                     </li>
 
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <Link href="tel:0123456789">+(964) 750 4946122</Link>
+                      <Link href="tel:0123456789">(+964) 750 494 6122</Link>
                     </li>
 
                     {/* <li>
