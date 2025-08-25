@@ -37,7 +37,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
           </div>
           <div className="contact-list mb-30">
             <h4>Email Address</h4>
-            <p>info@isocert.com</p>
+            <p>info@isocert.krd</p>
             {/* <p>bawarmoon@gmail.com</p> */}
           </div>
           <div className="contact-list mb-30">
